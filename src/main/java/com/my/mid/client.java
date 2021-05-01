@@ -18,12 +18,12 @@ public class client {
             
             Socket s = new Socket("localhost", 786);
             
-            DataOutputStream dout = new DataOutputStream(s.getOutputStream());
+            DataOutputStream doutstream = new DataOutputStream(s.getOutputStream());
             
-            dout.writeUTF("Ghulam Abbas");
+            doutstream.writeUTF("Ghulam Abbas");
             
-            dout.flush();
-            dout.close();
+            doutstream.flush();
+            doutstream.close();
             s.close();
             
             

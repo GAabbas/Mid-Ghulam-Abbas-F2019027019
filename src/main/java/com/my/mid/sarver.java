@@ -17,7 +17,7 @@ public class sarver {
             
             DataInputStream dis = new DataInputStream(s.getInputStream());
             String str = (String) dis.readUTF();
-            System.out.println("message=Ghulam Abbas " + str);
+            System.out.println("message= " + str);
             
             ss.close();
             
