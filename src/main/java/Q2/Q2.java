@@ -16,9 +16,7 @@ ResultSet rs = null;
         initComponents();
         
     }
-    
-   
-   
+ 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -102,7 +100,7 @@ ResultSet rs = null;
         try {
 
             String query = "select* from cities";
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cities?useSSl=false", "root", "4662");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cities?useSSl=false", "root", "GA1234");
             pst = conn.prepareStatement(query);
             rs = pst.executeQuery();
             while (rs.next()) {
